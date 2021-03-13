@@ -65,13 +65,17 @@ header a{
     padding-bottom: 40px;
 }
 
-.projects, .how-works{
+.projects, .how-works, .form{
     padding: 100px 0;
     background: rgba(0,0,0,0.1);
 }
 
-.about{
+.about, .supports{
     padding: 100px 0;
+}
+
+footer{
+    padding: 50px 0;
 }
 
 
