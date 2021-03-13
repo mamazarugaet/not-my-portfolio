@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.btn{
+    padding: 15px 30px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 21px;
+}
+
+p{
+    padding: 60px 0;
+    margin: 0;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    
+}
+
+.container, .navbar{
+    max-width: 1100px;
+}
+
+header {
+    height: 60px;
+    background: rgba(0,0,0,0.025);
+}
+
+header a{
+    margin-left: 20px;
+}
+
+.main{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+
+.projects{
+    padding: 100px 0;
+    background: rgba(0,0,0,0.1);
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
